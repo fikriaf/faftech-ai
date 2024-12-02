@@ -1,0 +1,81 @@
+* {
+    scrollbar-color: #6c757d transparent !important;
+}
+
+.inputnya::placeholder {
+    color: rgb(211, 211, 211) !important;
+}
+
+pre {
+	font-family: 'JetBrains Mono', monospace;
+}
+.code-toolbar {
+    width: 100% !important;
+}
+
+code[class*=language-], pre[class*=language-] {
+    background-color: black;
+    font-size: 1rem;
+}
+.toolbar-item {
+    cursor: pointer !important;
+}
+.toolbar-item .copy-to-clipboard-button {
+    z-index: 9999999999 !important;
+    cursor: pointer !important;
+    margin-left: 0.3rem !important;
+    padding: 5px 3px !important;
+    background-color: #343434 !important;
+    color: white  !important;
+    transition: background-color 0.7s, color 0.7 !important;
+}
+.toolbar-item .copy-to-clipboard-button:hover {
+    background-color: white !important;
+    color: black  !important;
+}
+
+.toolbar-item .copy-to-clipboard-button span::before {
+    pointer-events: none;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c5";
+    font-weight: 500;
+    padding-right: 5px !important;
+    transition: content 0.2s ease !important;
+}
+
+.copy-to-clipboard-button.checked span::before {
+    content: "✓" !important;
+}
+
+.toolbar-item span {
+    padding: 5px 10px !important;
+    font-weight: 700 !important;
+    font-family: Heebo !important;
+}
+
+#filePreview {
+    display: none;
+    position: absolute;
+    bottom: 10%;
+    z-index: 999;
+    color: rgb(255, 255, 255);
+    background-color: #343434;
+    padding: 0;
+    margin: 0;
+    border-radius: 0.5rem;
+}
+#filePreview button {
+    padding: 0 0.5rem;
+    margin: 0;
+}
+#filePreview #fileContent {
+    margin: 0;
+}
+strong {
+    background-color: rgba(122, 122, 122, 0.411);
+    color: white; 
+    font-weight: bold;
+    padding: 0 4px;
+    margin: 0;
+    border-radius: 2px;
+}
