@@ -1,5 +1,5 @@
 # UI Chat Bot
-
+![UI](https://github.com/fikriaf/faftech-ai/blob/main/wfwrw.PNG)
 # Faftech-AI
 
 Faftech-AI adalah antarmuka web interaktif berbasis HTML, CSS, dan JavaScript yang menggunakan Bootstrap untuk tata letak responsif, Prism.js untuk penyorotan sintaksis kode, serta berbagai fitur interaktif lainnya. Proyek ini dirancang untuk menyediakan UI yang modern dan intuitif.
