@@ -1,65 +1,66 @@
-# UI Chat Bot
+# UI Chat Bot FAFTECH-AI
 ![UI](https://github.com/fikriaf/faftech-ai/blob/main/wfwrw.PNG)
+
 # Faftech-AI
 
-Faftech-AI adalah antarmuka web interaktif berbasis HTML, CSS, dan JavaScript yang menggunakan Bootstrap untuk tata letak responsif, Prism.js untuk penyorotan sintaksis kode, serta berbagai fitur interaktif lainnya. Proyek ini dirancang untuk menyediakan UI yang modern dan intuitif.
+Faftech-AI is an interactive web interface built with HTML, CSS, and JavaScript, utilizing Bootstrap for responsive layout, Prism.js for syntax highlighting, and various other interactive features. This project is designed to provide a modern and intuitive UI.
 
-## Fitur Utama
+## Key Features
 
-1. **Dukungan Multi-AI**: Antarmuka dengan dua panel interaksi untuk berkomunikasi dengan dua model AI secara bersamaan.
-2. **Penyorotan Kode**: Menggunakan Prism.js untuk penyorotan sintaksis pada blok kode.
-3. **Interaksi Fleksibel**:
-   - Tombol untuk menyalin kode ke clipboard dengan umpan balik visual.
-   - Input file yang terintegrasi dengan dua tombol kontrol.
-   - Dukungan pintasan keyboard untuk pengiriman data.
-4. **Tata Letak Responsif**: Menggunakan Bootstrap 5.3.3 untuk memastikan kompatibilitas di berbagai perangkat.
-5. **Offcanvas Menu**: Untuk pengaturan tambahan seperti reset riwayat.
+1. **Multi-AI Support**: Interface with two interaction panels to communicate with two AI models simultaneously.
+2. **Code Highlighting**: Uses Prism.js to highlight syntax in code blocks.
+3. **Flexible Interaction**:
+   - Button to copy code to clipboard with visual feedback.
+   - File input integrated with two control buttons.
+   - Keyboard shortcut support for data submission.
+4. **Responsive Layout**: Built with Bootstrap 5.3.3 to ensure compatibility across devices.
+5. **Offcanvas Menu**: For additional settings such as resetting history.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
-- **HTML5**: Struktur dasar halaman.
-- **CSS3**: Gaya tambahan untuk mempercantik antarmuka.
-- **Bootstrap 5.3.3**: Membuat tata letak responsif.
-- **Prism.js**: Penyorotan sintaksis kode.
-- **JavaScript**: Logika interaktif, seperti clipboard, input file, dan tombol dinamis.
-- **Font Awesome & Bootstrap Icons**: Ikon untuk elemen UI.
+- **HTML5**: Base structure of the page.
+- **CSS3**: Additional styles to enhance the interface.
+- **Bootstrap 5.3.3**: To build a responsive layout.
+- **Prism.js**: Syntax highlighting for code.
+- **JavaScript**: Interactive logic such as clipboard, file input, and dynamic buttons.
+- **Font Awesome & Bootstrap Icons**: Icons for UI elements.
 
-## Cara Menggunakan
+## How to Use
 
-1. **Clone Repository**:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/fikriarmiafahmi/faftech-ai.git
    cd faftech-ai
    ```
 
-2. **Jalankan di Browser**:
-- Pastikan Anda memiliki server lokal seperti Laragon atau XAMPP.
-- Tempatkan folder proyek di direktori server Anda (htdocs atau setara).
-- Akses halaman melalui browser, misalnya http://localhost/faftech-ai.
+2. **Run in Browser**:
+- Make sure you have a local server like Laragon or XAMPP.
+- Place the project folder in your server directory (htdocs or equivalent).
+- Access the page via browser, for example: http://localhost/faftech-ai
 
-3. **Fitur Input dan Interaksi**:
-- Masukkan teks ke dalam input textarea.
-- Gunakan pintasan berikut untuk mengirim:
-- Kirim ke kedua AI: CTRL + ENTER
-- Kirim ke kiri: CTRL + ALT + L
-- Kirim ke kanan: CTRL + ALT + R
-- Gunakan tombol folder atau plus untuk mengunggah file.
+3. **Input and Interaction Features**:
+- Enter text into the input textarea.
+- Use the following shortcuts to send:
+  - Send to both AIs: CTRL + ENTER
+  - Send to the left: CTRL + ALT + L
+  - Send to the right: CTRL + ALT + R
+- Use the folder or plus buttons to upload a file.
 
-4. **Reset Riwayat**:
-- Buka menu offcanvas menggunakan ikon grid.
-- Klik tombol Reset History.
+4. **Reset History**:
+- Open the offcanvas menu using the grid icon.
+- Click the "Reset History" button.
 
-## Struktur Proyek
-├── index.html       # Halaman utama
+## Project Structure
+├── index.html       # Main page
 <br>
-├── style.css        # Gaya kustom
+├── style.css        # Custom styles
 <br>
-├── script.js        # Logika interaktif
+├── script.js        # Interactive logic
 <br>
 ├── prismjs/
 <br>
-│   ├── prism.css    # Gaya penyorotan sintaksis
+│   ├── prism.css    # Syntax highlighting styles
 <br>
-│   └── prism.js     # Script penyorotan sintaksis
+│   └── prism.js     # Syntax highlighting script
 <br>
-├── README.md        # Dokumentasi proyek
+├── README.md        # Project documentation
